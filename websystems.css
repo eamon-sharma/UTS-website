@@ -36,3 +36,42 @@
   float: right;
 }
 /* End navbar style */
+
+body {
+  background-image: url(background.jpg);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: DarkSalmon;
+   color: white;
+   text-align: center;
+}
+
+.AM-First {
+  text-align: center;
+  font: Sans-serif;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.Pic-of-me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+hr {
+  border-top: 1px dashed black;
+  width: 50%;
+}
