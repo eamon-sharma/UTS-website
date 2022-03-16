@@ -20,7 +20,7 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: DarkSalmon;
   color: white;
 }
 
@@ -46,21 +46,13 @@ h1 {
   padding-top: 20px;
 }
 
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: DarkSalmon;
-   color: white;
-   text-align: center;
-}
+
 
 .AM-First {
   text-align: center;
   font: Sans-serif;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
 
 }
 
@@ -74,4 +66,57 @@ footer {
 hr {
   border-top: 1px dashed black;
   width: 50%;
+}
+
+
+.box{
+  border-radius: 25px;
+  background-color: #D3D3D380;
+  position: absolute;
+  height: 62%;
+  width: 60%;
+  left: 20%;
+  top: 20%;
+}
+
+.countries {
+  text-align: center;
+}
+
+.Countries-list {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.past-table th, td {
+  border:1px solid black;
+}
+
+.past-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.past-sum {
+  text-align: center;
+}
+
+.table-head {
+  text-align: center;
+}
+
+.box-past{
+  border-radius: 25px;
+  background-color: #D3D3D380;
+  position: absolute;
+  height: 800px;
+  width: 60%;
+  left: 20%;
+  top: 20%;
+}
+
+.IT-past {
+  text-align: center;
+
 }
